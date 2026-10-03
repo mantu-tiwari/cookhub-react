@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './pages/Navbar'
+import AddRecipeForm from './components/AddRecipeForm'
 
 const App = () => {
   return (
     <div>
-      <h1>Initial setup</h1>
+      <Navbar/>
+      <AddRecipeForm/>
     </div>
   )
 }
