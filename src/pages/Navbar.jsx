@@ -14,7 +14,7 @@ import {
 const Navbar = () => {
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [cartCount, setCartCount] = useState(3); // Example cart items count
+  const [cartCount, setCartCount] = useState(1); // Example cart items count
 
   return (
     <div>
@@ -101,7 +101,7 @@ const Navbar = () => {
               <div className="relative pl-2 border-l border-gray-200">
                 <button className="flex items-center gap-2 p-0.5 rounded-full ring-2 ring-transparent hover:ring-orange-500/50 transition-all">
                   <img
-                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=256"
+                    src= "https://img.icons8.com/?size=100&id=IBgUXg3MQlTW&format=png&color=000000"
                     alt="User avatar"
                     className="w-9 h-9 rounded-full object-cover"
                   />
